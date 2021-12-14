@@ -11,12 +11,8 @@ class Stack {
   }
 
   peek() {
-    const firstItem = this.#list.length-1;
-    return this.#list[firstItem]
-  }
-
-  get size () {
-
+    //could also have use this.#list.at(-1)
+    return this.#list[this.#list.length -1]
   }
 }
 
