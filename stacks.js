@@ -12,6 +12,7 @@ class Stack {
 
   peek() {
     //could also have use this.#list.at(-1)
+    // or this.#list.length ? this.#list[this.#list.length -1] : null
     return this.#list[this.#list.length -1]
   }
 }
