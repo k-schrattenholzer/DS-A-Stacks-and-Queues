@@ -1,3 +1,6 @@
+// classes (like Stack) have methods (like push, pop, and peek)
+// when we call a new instance of a class, like on line 23, we also get access to it's methods (like properties, but that perform an action like functions)
+
 class Stack {
   #list = [];
 
